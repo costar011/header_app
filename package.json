@@ -1,7 +1,24 @@
 {
+  "name": "header_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costar011/header_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costar011/header_app/issues"
+  },
+  "homepage": "https://github.com/costar011/header_app#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.13",
+    "morgan": "^1.10.0",
     "pug": "^3.0.2"
   }
 }
